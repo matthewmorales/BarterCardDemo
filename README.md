@@ -23,9 +23,12 @@ As time permits, I hope to implement the following changes:
 
 1) More realistic trading strategies, such as a strategy where agents will not trade with the current winner, or an agent
   who previously refused to trade.
+
 2) More true-to-Catan card distribution. As it currently stands, agents generate cards in a manner not consistent with
   the actual game in two ways: they only generate cards on their turn, and relative probability of generating certain resource
   cards never changes. I would like to implement the means for agents to generate cards on every player's turn (like the real
   game) as well implement a means to distribute cards more in-line with the game.
+
 3) GUI and minor accompanying changes.
+
 4) Missing game mechanics (actual dice rolls, robber, armys, longest road, etc.)
